@@ -7,6 +7,7 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    guifont = "JetBrainsMono Nerd Font:h16", -- sets vim.opt.guifont
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
@@ -17,6 +18,9 @@ return {
     icons_enabled = true, -- disable icons in the UI (disable if no nerd font is available, requires :PackerSync after changing)
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
+    neovide_refresh_rate = 144, -- set the refresh rate of neovide (only works in neovide)
+    neovide_fullscreen = true, -- set neovide to fullscreen (only works in neovide)
+    neovide_confirm_quit = true, -- disable the quit confirmation in neovide (only works in neovide)
   },
 }
 -- If you need more control, you can use the function()...end notation
