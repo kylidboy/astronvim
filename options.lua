@@ -21,6 +21,7 @@ return {
     neovide_refresh_rate = 144, -- set the refresh rate of neovide (only works in neovide)
     neovide_fullscreen = true, -- set neovide to fullscreen (only works in neovide)
     neovide_confirm_quit = true, -- disable the quit confirmation in neovide (only works in neovide)
+    neovide_cursor_vfx_mode = "torpedo",
   },
 }
 -- If you need more control, you can use the function()...end notation
