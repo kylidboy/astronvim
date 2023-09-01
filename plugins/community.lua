@@ -16,7 +16,6 @@ return {
   { import = "astrocommunity.colorscheme.dracula-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.colorscheme.poimandres-nvim" },
-  { import = "astrocommunity.colorscheme.onigiri-nvim" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.colorscheme.nvim-juliana" },
   { import = "astrocommunity.colorscheme.sonokai" },
@@ -34,4 +33,5 @@ return {
   { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.color.headlines-nvim" },
   { import = "astrocommunity.color.twilight-nvim" },
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
 }
