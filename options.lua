@@ -2,14 +2,14 @@
 return {
   opt = {
     -- set to true or false etc.
-    relativenumber = true, -- sets vim.opt.relativenumber
-    number = true, -- sets vim.opt.number
+    relativenumber = false, -- sets vim.opt.relativenumber
+    number = false, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
-    -- guifont = "CaskaydiaCove Nerd Font:h17", -- sets vim.opt.guifont
-    guifont = "FiraCode Nerd Font:h16", -- sets vim.opt.guifont
-    -- guifont = "JetBrainsMono Nerd Font:h17", -- sets vim.opt.guifont
+    guifont = "CaskaydiaCove Nerd Font Mono:h18", -- sets vim.opt.guifont
+    -- guifont = "FiraCode Nerd Font:h16", -- sets vim.opt.guifont
+    -- guifont = "JetBrainsMono Nerd Font:h16", -- sets vim.opt.guifont
     termguicolors = true, -- sets vim.opt.termguicolors
   },
   g = {

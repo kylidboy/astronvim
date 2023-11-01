@@ -20,7 +20,10 @@ return {
       return opts
     end,
   },
-
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    enabled = false,
+  },
   {
     "nvim-treesitter/nvim-treesitter",
     opts = function(_, opts)
@@ -33,6 +36,19 @@ return {
     opts = function(_, opts)
       opts.disable_max_lines = 100000
       opts.disable_max_size = 20000000
+      return opts
+    end,
+  },
+  {
+    "rebelot/heirline.nvim",
+    opts = function(_, opts)
+      local status = require "astronvim.utils.status"
+      opts.statuscolumn = { -- statuscolumn
+        -- status.component.foldcolumn(),
+        status.component.fill(),
+        -- status.component.numbercolumn(),
+        status.component.signcolumn(),
+      }
       return opts
     end,
   },

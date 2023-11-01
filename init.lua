@@ -18,7 +18,9 @@ return {
   },
 
   -- Set colorscheme to use
+  -- colorscheme = "catppuccin",
   -- colorscheme = "kanagawa",
+  -- colorscheme = "kanagawa-dragon",
   colorscheme = "tokyonight-night",
   -- colorscheme = "nightfox",
   -- colorscheme = "rose-pine-moon",
